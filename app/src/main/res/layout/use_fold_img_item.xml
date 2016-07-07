@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:background="@android:color/holo_blue_dark"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_horizontal"
+  android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  >
+
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="fitCenter"
+    android:src="@drawable/f"
+    />
+
+  <View
+    android:layout_weight="1"
+    android:background="@android:color/darker_gray"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"/>
+
+  <Button
+    android:id="@+id/contentTv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:text="||||||||||||||| image type |||||||||||||||"
+    android:textSize="24sp"
+    />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="this si some text eeeeeeeeeeeeeee"
+    android:textSize="24sp"
+    />
+
+</LinearLayout>
